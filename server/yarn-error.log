@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add prisma: ^3.13.0,
+
+PATH: 
+  /home/gabriel/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Invalid URL
+      at module.exports.module.exports (/usr/lib/node_modules/yarn/lib/cli.js:71862:9)
+      at urlParts (/usr/lib/node_modules/yarn/lib/cli.js:31657:75)
+      at NpmRegistry.isRequestToRegistry (/usr/lib/node_modules/yarn/lib/cli.js:31700:19)
+      at NpmRegistry.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:31732:31)
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/usr/lib/node_modules/yarn/lib/cli.js:5301:28)
+      at NpmRegistry.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:307:12)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
